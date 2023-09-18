@@ -1,0 +1,37 @@
+[
+  {
+    "flightId": 0,
+    "flightNumber": 2447,
+    "departureAirportIATACode": "SEA",
+    "arrivalAirportIATACode": "GDN",
+    "departureDate": "2021-10-06T07:37:39-02:00"
+  },
+  {
+    "flightId": 1,
+    "flightNumber": 1154,
+    "departureAirportIATACode": "YYZ",
+    "arrivalAirportIATACode": "LEW",
+    "departureDate": "2018-08-25T01:52:07-02:00"
+  },
+  {
+    "flightId": 2,
+    "flightNumber": 4575,
+    "departureAirportIATACode": "ANC",
+    "arrivalAirportIATACode": "MIT",
+    "departureDate": "2022-03-14T01:24:59-01:00"
+  },
+  {
+    "flightId": 3,
+    "flightNumber": 7632,
+    "departureAirportIATACode": "YYT",
+    "arrivalAirportIATACode": "MIT",
+    "departureDate": "2017-07-28T06:24:58-02:00"
+  },
+  {
+    "flightId": 4,
+    "flightNumber": 4851,
+    "departureAirportIATACode": "YYT",
+    "arrivalAirportIATACode": "LEW",
+    "departureDate": "2021-06-18T12:36:18-02:00"
+  }
+]
