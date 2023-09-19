@@ -1,4 +1,4 @@
-package com.example.smart4aviation.repositories
+package com.example.smart4aviation.repository
 
 import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.ObjectMapper

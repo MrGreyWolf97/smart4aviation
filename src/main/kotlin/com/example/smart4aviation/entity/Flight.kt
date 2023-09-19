@@ -1,4 +1,4 @@
-package com.example.smart4aviation.entities
+package com.example.smart4aviation.entity
 
 import com.fasterxml.jackson.annotation.JsonFormat
 import com.fasterxml.jackson.databind.annotation.JsonSerialize
