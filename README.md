@@ -1,6 +1,6 @@
 # Smart4Aviation
 
-This is a Spring Boot 3.1.3 [Maven] application, written in Kotlin.
+This is a Spring Boot 3.1.3 [Maven] application, written in Java.
 
 I created a set of 2 APIs (plus a couple of test APIs to retrieve the basic data stored inside the json files).
 Here follows the examples of cURL for the two APIs:
