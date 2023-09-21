@@ -3,6 +3,7 @@ package smart4aviation.entity;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
@@ -11,14 +12,15 @@ import java.util.List;
  */
 @JsonSerialize
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 public class FlightCargo {
 
     private final Double LBS_TO_KG = 1 / 2.20462;
 
     private Long flightId;
-    List<TransportUnit> baggage;
-    List<TransportUnit> cargo;
+    private List<TransportUnit> baggage;
+    private List<TransportUnit> cargo;
 
     public Integer getBaggageTotalPieces() {
         return baggage.stream().map(TransportUnit::getPieces).reduce(0, Integer::sum);
@@ -48,6 +50,7 @@ public class FlightCargo {
 
 @JsonSerialize
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 class TransportUnit {
     private Long id;
